@@ -83,6 +83,20 @@ A 12-slide deck walking through the business questions, findings, model results,
 
 ---
 
+## Dashboard Preview
+
+Built in Power BI using CampusEvolve's brand colors (teal #00B5C8). All 3 dashboard pages are available in the PDF below.
+
+📊 **[View Full Dashboard PDF](assets/CampusEvolve%20Dashboards.pdf)**
+
+**Page 1 - Pathway Completion Overview:** Completion rates by program type and institution, pathway achievement trend, and KPI cards showing 58.53% completion, 52.14% employment, and 38.04% pathway achievement.
+
+**Page 2 - At-Risk Student Monitor:** Risk tier distribution across 50,000 students, intervention coverage by tier, and completion rates showing Medium risk students are the most underserved segment.
+
+**Page 3 - Equity Outcomes:** Completion gaps by income bracket, race/ethnicity, first-generation status, and a waterfall chart showing income is the strongest driver of inequity.
+
+---
+
 ## Schema Design
 
 The dataset follows a **star schema** with `students` as the central fact table. All five child tables connect to students via `student_id`.
