@@ -13,7 +13,7 @@ CampusEvolve exists to simplify every learner's path to economic mobility. Their
 
 This project answers a fundamental question: **what does a Founding Data Scientist at CampusEvolve need to build in their first 60-90 days to make the mission measurable, actionable, and equitable?**
 
-The answer is a full analytics stack — from raw data to SQL queries to machine learning to executive dashboards — that tells you who is at risk, why they drop off, whether interventions are working, and who is being left behind.
+The answer is a full analytics stack. From raw data to SQL queries to machine learning to executive dashboards, that tells you who is at risk, why they drop off, whether interventions are working, and who is being left behind.
 
 ---
 
@@ -322,4 +322,4 @@ In a real Founding DS role, the data engineering work would be significantly mor
 
 *Built by Ishan Joshi as part of the application for Founding Data Scientist, Pathways AI & Analytics at CampusEvolve.*
 
-*"Unlocking Potential | Empowering Minds" — CampusEvolve*
+*"Unlocking Potential | Empowering Minds" - CampusEvolve*
