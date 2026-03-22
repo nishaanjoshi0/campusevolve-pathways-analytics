@@ -298,40 +298,6 @@ campusevolve-pathways-analytics/
 
 ---
 
-## How to Run
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/nishaanjoshi0/campusevolve-pathways-analytics.git
-cd campusevolve-pathways-analytics
-
-# 2. Create and activate virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Generate synthetic data
-python3 generate_data.py
-# Output: data/raw/ folder with 6 CSV files
-
-# 5. Run SQL schema (PostgreSQL)
-psql -f sql/schema.sql
-psql -f sql/01_cohort_retention.sql
-# repeat for all 5 query files
-
-# 6. Run the analysis notebook
-jupyter notebook notebooks/pathway_risk_analysis.ipynb
-# This generates data/processed/powerbi_exports/ files
-
-# 7. View dashboards
-# Open Power BI Web and connect to the powerbi_exports/ CSVs
-# Dashboard URLs use raw GitHub CSV links with anonymous auth
-```
-
----
-
 ## A Note on the Data
 
 This project uses a fully synthetic dataset. No real student data was used. The data is modeled on publicly available IPEDS and NCES patterns to ensure realistic distributions, but all student records are algorithmically generated.
