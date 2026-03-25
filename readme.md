@@ -66,6 +66,8 @@ This project delivers five interconnected components:
 ### 1. Synthetic Dataset (50,000 Students)
 A fully synthetic dataset modeled on real IPEDS and NCES public education data. The data reflects real-world patterns: low-income and first-gen students have higher dropout rates, aid gaps correlate with withdrawals, and GPA follows a realistic distribution. The dataset spans 5 enrollment years (2018-2022) and generates over 1.2 million records across 6 tables.
 
+Note: This dataset is fully synthetic and generated programmatically to reflect patterns observed in public IPEDS and NCES data. While distributions and correlations are modeled on real-world trends, the records do not represent actual students or institutions. Results and insights derived from this data may differ from real-world outcomes.
+
 ### 2. Relational Database Schema (SQL)
 A production-quality PostgreSQL schema with 6 tables, primary keys, foreign keys, and indexes on the most commonly queried columns. Five analytical SQL queries answer the core business questions.
 
